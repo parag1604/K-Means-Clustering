@@ -17,13 +17,9 @@ Use python >= 3.10 and install the requirements (numpy and matplotlib):
 pip install -r requirements.txt
 ```
 
-## Data
-
-No dataset is needed. `version0.py` generates toy 2-D blobs, and `version1.py`/`version2.py` use the sample photo `image.jpg` in this folder. Pass `--image <path>` to use your own picture.
-
 ## Running
 
-The K-means algorithm itself (random and k-means++ initialization, empty-cluster handling, convergence check) lives in `model.py`. Each script below adds one new idea.
+The K-means algorithm itself (random and k-means++ initialization, empty-cluster handling, convergence check) lives in `model.py`. Each script below adds one new idea. `version0.py` generates toy 2-D blobs, and `version1.py`/`version2.py` use the sample photo `image.jpg` in this folder (pass `--image <path>` to use your own picture).
 
 ### 0. K-means on toy data
 
